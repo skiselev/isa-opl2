@@ -1,1044 +1,1122 @@
-# EESchema Netlist Version 1.1 created  9/7/2012 9:24:59 PM
-(
- ( /504842E8 $noname  HOLE2 CONN_1 {Lib=CONN_1}
-  (    1 GND )
- )
- ( /504842E1 $noname  HOLE1 CONN_1 {Lib=CONN_1}
-  (    1 GND )
- )
- ( /50483155 $noname  U4 74LS74 {Lib=74LS74}
-  (    1 VCC )
-  (    2 N-000116 )
-  (    3 /OSC )
-  (    4 VCC )
-  (    5 N-000115 )
-  (    6 N-000116 )
-  (    7 GND )
-  (    8 N-000124 )
-  (    9 /MCLK )
-  (   10 VCC )
-  (   11 N-000115 )
-  (   12 N-000124 )
-  (   13 VCC )
-  (   14 VCC )
- )
- ( /50476F72 $noname  J1 AUDIO_OUT {Lib=CONN_5}
-  (    1 GND )
-  (    2 /RIGHT )
-  (    3 ? )
-  (    4 ? )
-  (    5 /LEFT )
- )
- ( /5043185F $noname  U8 RC4136 {Lib=RC4136}
-  (    1 N-000120 )
-  (    2 N-000068 )
-  (    3 N-000066 )
-  (    4 N-000117 )
-  (    5 N-000050 )
-  (    6 N-000117 )
-  (    7 VSS )
-  (    8 N-000031 )
-  (    9 N-000030 )
-  (   10 N-000031 )
-  (   11 VDD )
-  (   12 /FILTER_OUT )
-  (   13 N-000118 )
-  (   14 N-000064 )
- )
- ( /50431497 $noname  U7 Y3014B {Lib=Y3014B}
-  (    1 VCC )
-  (    2 N-000050 )
-  (    3 /DAC_SYNC )
-  (    4 /DAC_DATA )
-  (    5 /DAC_CLK )
-  (    6 GND )
-  (    7 N-000030 )
-  (    8 N-000031 )
- )
- ( /504301D6 $noname  P2 ADDR {Lib=CONN_4X2}
-  (    1 /0x218 )
-  (    2 /0x388 )
-  (    3 /0x288 )
-  (    4 /0x388 )
-  (    5 /0x318 )
-  (    6 /0x388 )
-  (    7 /0x388 )
-  (    8 /0x388 )
- )
- ( /504301D0 $noname  P1 IRQ {Lib=CONN_3X2}
-  (    1 /IRQ3 )
-  (    2 /IRQ )
-  (    3 /IRQ5 )
-  (    4 /IRQ )
-  (    5 /IRQ2 )
-  (    6 /IRQ )
- )
- ( /5042F888 $noname  U6 YM3812 {Lib=YM3812}
-  (    1 VCC )
-  (    2 /~IRQ )
-  (    3 /~RESET )
-  (    4 /A0 )
-  (    5 /~WRITE )
-  (    6 /~READ )
-  (    7 /0x388 )
-  (   10 /DB0 )
-  (   11 /DB1 )
-  (   12 GND )
-  (   13 /DB2 )
-  (   14 /DB3 )
-  (   15 /DB4 )
-  (   16 /DB5 )
-  (   17 /DB6 )
-  (   18 /DB7 )
-  (   20 /DAC_SYNC )
-  (   21 /DAC_DATA )
-  (   23 /DAC_CLK )
-  (   24 /MCLK )
- )
- ( /5042C02D $noname  U1 74LS245 {Lib=74LS245}
-  (    1 /~READ )
-  (    2 /D0 )
-  (    3 /D1 )
-  (    4 /D2 )
-  (    5 /D3 )
-  (    6 /D4 )
-  (    7 /D5 )
-  (    8 /D6 )
-  (    9 /D7 )
-  (   10 GND )
-  (   11 /DB7 )
-  (   12 /DB6 )
-  (   13 /DB5 )
-  (   14 /DB4 )
-  (   15 /DB3 )
-  (   16 /DB2 )
-  (   17 /DB1 )
-  (   18 /DB0 )
-  (   19 /0x388 )
-  (   20 VCC )
- )
- ( /5042B74E $noname  BUS1 BUSPC {Lib=BUSPC}
-  (    1 GND )
-  (    2 /RESET )
-  (    3 VCC )
-  (    4 /IRQ2 )
-  (    5 ? )
-  (    6 ? )
-  (    7 VSS )
-  (    8 ? )
-  (    9 VDD )
-  (   10 GND )
-  (   11 ? )
-  (   12 ? )
-  (   13 /~IOW )
-  (   14 /~IOR )
-  (   15 ? )
-  (   16 ? )
-  (   17 ? )
-  (   18 ? )
-  (   19 ? )
-  (   20 ? )
-  (   21 ? )
-  (   22 ? )
-  (   23 /IRQ5 )
-  (   24 ? )
-  (   25 /IRQ3 )
-  (   26 ? )
-  (   27 ? )
-  (   28 ? )
-  (   29 VCC )
-  (   30 /OSC )
-  (   31 GND )
-  (   32 ? )
-  (   33 /D7 )
-  (   34 /D6 )
-  (   35 /D5 )
-  (   36 /D4 )
-  (   37 /D3 )
-  (   38 /D2 )
-  (   39 /D1 )
-  (   40 /D0 )
-  (   41 ? )
-  (   42 /AEN )
-  (   43 ? )
-  (   44 ? )
-  (   45 ? )
-  (   46 ? )
-  (   47 ? )
-  (   48 ? )
-  (   49 ? )
-  (   50 ? )
-  (   51 ? )
-  (   52 ? )
-  (   53 /A9 )
-  (   54 /A8 )
-  (   55 /A7 )
-  (   56 /A6 )
-  (   57 /A5 )
-  (   58 /A4 )
-  (   59 /A3 )
-  (   60 /A2 )
-  (   61 /A1 )
-  (   62 /A0 )
- )
- ( /5042B725 $noname  U9 LM386 {Lib=LM386}
-  (    1 ? )
-  (    2 N-000052 )
-  (    3 /AMP_IN )
-  (    4 GND )
-  (    5 /AMP_OUT )
-  (    6 VDD )
-  (    7 N-000108 )
-  (    8 ? )
- )
- ( /5042B70A $noname  U5 74LS04 {Lib=74LS04}
-  (    1 /~IRQ )
-  (    2 /IRQ )
-  (    3 /~IOR )
-  (    4 N-000107 )
-  (    5 /~IOW )
-  (    6 N-000112 )
-  (    7 GND )
-  (    8 /~WRITE )
-  (    9 N-000112 )
-  (   10 /~READ )
-  (   11 N-000107 )
-  (   12 /~RESET )
-  (   13 /RESET )
-  (   14 VCC )
- )
- ( /5042B6E6 $noname  U2 74LS138 {Lib=74LS138}
-  (    1 /A1 )
-  (    2 /A2 )
-  (    3 /A5 )
-  (    4 GND )
-  (    5 /A6 )
-  (    6 /A3 )
-  (    7 ? )
-  (    8 GND )
-  (    9 ? )
-  (   10 ? )
-  (   11 ? )
-  (   12 ? )
-  (   13 ? )
-  (   14 ? )
-  (   15 N-000070 )
-  (   16 VCC )
- )
- ( /5042B6E1 $noname  U3 74LS138 {Lib=74LS138}
-  (    1 /A4 )
-  (    2 /A7 )
-  (    3 /A8 )
-  (    4 /AEN )
-  (    5 N-000070 )
-  (    6 /A9 )
-  (    7 ? )
-  (    8 GND )
-  (    9 /0x388 )
-  (   10 /0x318 )
-  (   11 ? )
-  (   12 ? )
-  (   13 /0x288 )
-  (   14 /0x218 )
-  (   15 ? )
-  (   16 VCC )
- )
- ( /5042B6B8 $noname  Q1 2N3904 {Lib=NPN}
-  (    1 GND )
-  (    2 N-000062 )
-  (    3 /RC1 )
- )
- ( /5042B6A7 $noname  D1 1N4148 {Lib=DIODE}
-  (    1 GND )
-  (    2 N-000125 )
- )
- ( /5042B699 $noname  C14 10uF {Lib=CP1}
-  (    1 GND )
-  (    2 VSS )
- )
- ( /5042B696 $noname  C13 10uF {Lib=CP1}
-  (    1 VDD )
-  (    2 GND )
- )
- ( /5042B693 $noname  C12 10uF {Lib=CP1}
-  (    1 VCC )
-  (    2 GND )
- )
- ( /5042B690 $noname  C18 220uF {Lib=CP1}
-  (    1 /AMP_OUT )
-  (    2 /AUDIO_OUT )
- )
- ( /5042B68D $noname  C17 10uF {Lib=CP1}
-  (    1 N-000108 )
-  (    2 GND )
- )
- ( /5042B68A $noname  C16 10uF {Lib=CP1}
-  (    1 VCC )
-  (    2 N-000125 )
- )
- ( /5042B688 $noname  C19 4.7uF {Lib=CP1}
-  (    1 /FILTER_OUT )
-  (    2 /RC1 )
- )
- ( /5042B676 $noname  C15 10uF {Lib=CP1}
-  (    1 N-000030 )
-  (    2 GND )
- )
- ( /5042B66F $noname  C10 0.1uF {Lib=C}
-  (    1 GND )
-  (    2 VSS )
- )
- ( /5042B66D $noname  C8 0.1uF {Lib=C}
-  (    1 VDD )
-  (    2 GND )
- )
- ( /5042B66A $noname  C9 0.1uF {Lib=C}
-  (    1 VDD )
-  (    2 GND )
- )
- ( /5042B667 $noname  C1 0.1uF {Lib=C}
-  (    1 VCC )
-  (    2 GND )
- )
- ( /5042B664 $noname  C2 0.1uF {Lib=C}
-  (    1 VCC )
-  (    2 GND )
- )
- ( /5042B662 $noname  C11 0.1uF {Lib=C}
-  (    1 N-000052 )
-  (    2 GND )
- )
- ( /5042B660 $noname  C25 1nF {Lib=C}
-  (    1 GND )
-  (    2 /RC2 )
- )
- ( /5042B65E $noname  C20 47nF {Lib=C}
-  (    1 /AMP_OUT )
-  (    2 N-000063 )
- )
- ( /5042B65C $noname  C26 270pF {Lib=C}
-  (    1 /RC3 )
-  (    2 GND )
- )
- ( /5042B65A $noname  C23 4.7nF {Lib=C}
-  (    1 N-000069 )
-  (    2 /FILTER_OUT )
- )
- ( /5042B658 $noname  C24 4.7nF {Lib=C}
-  (    1 N-000118 )
-  (    2 GND )
- )
- ( /5042B656 $noname  C21 4.7nF {Lib=C}
-  (    1 N-000119 )
-  (    2 N-000066 )
- )
- ( /5042B654 $noname  C22 4.7nF {Lib=C}
-  (    1 N-000068 )
-  (    2 GND )
- )
- ( /5042B652 $noname  C7 0.1uF {Lib=C}
-  (    1 VCC )
-  (    2 GND )
- )
- ( /5042B635 $noname  C6 0.1uF {Lib=C}
-  (    1 VCC )
-  (    2 GND )
- )
- ( /5042B633 $noname  C5 0.1uF {Lib=C}
-  (    1 VCC )
-  (    2 GND )
- )
- ( /5042B62F $noname  C4 0.1uF {Lib=C}
-  (    1 VCC )
-  (    2 GND )
- )
- ( /5042B629 $noname  C3 0.1uF {Lib=C}
-  (    1 VCC )
-  (    2 GND )
- )
- ( /5042B604 $noname  RV1 10k {Lib=POT}
-  (    1 GND )
-  (    2 /AMP_IN )
-  (    3 /RC3 )
- )
- ( /5042B5C4 $noname  R4 10k {Lib=R}
-  (    1 /RC1 )
-  (    2 GND )
- )
- ( /5042B5C0 $noname  R13 2.2k {Lib=R}
-  (    1 /RC2 )
-  (    2 /RC1 )
- )
- ( /5042B5BD $noname  R6 8.2k {Lib=R}
-  (    1 /RC3 )
-  (    2 /RC2 )
- )
- ( /5042B5B8 $noname  R17 10 {Lib=R}
-  (    1 /RIGHT )
-  (    2 /AUDIO_OUT )
- )
- ( /5042B5B4 $noname  R5 10k {Lib=R}
-  (    1 /AUDIO_OUT )
-  (    2 GND )
- )
- ( /5042B5B1 $noname  R12 2.2k {Lib=R}
-  (    1 N-000062 )
-  (    2 N-000125 )
- )
- ( /5042B5AF $noname  R15 10 {Lib=R}
-  (    1 N-000063 )
-  (    2 GND )
- )
- ( /5042B5AD $noname  R16 10 {Lib=R}
-  (    1 /LEFT )
-  (    2 /AUDIO_OUT )
- )
- ( /5042B5AB $noname  R14 1.5k {Lib=R}
-  (    1 /FILTER_OUT )
-  (    2 N-000064 )
- )
- ( /5042B5A7 $noname  R3 10k {Lib=R}
-  (    1 GND )
-  (    2 N-000064 )
- )
- ( /5042B5A5 $noname  R11 2.2k {Lib=R}
-  (    1 N-000118 )
-  (    2 N-000069 )
- )
- ( /5042B5A3 $noname  R10 2.2k {Lib=R}
-  (    1 N-000069 )
-  (    2 N-000066 )
- )
- ( /5042B5A0 $noname  R1 12k {Lib=R}
-  (    1 N-000066 )
-  (    2 N-000120 )
- )
- ( /5042B599 $noname  R2 10k {Lib=R}
-  (    1 GND )
-  (    2 N-000120 )
- )
- ( /5042B58B $noname  R7 2.2k {Lib=R}
-  (    1 VCC )
-  (    2 /~IRQ )
- )
- ( /5042B588 $noname  R8 2.2k {Lib=R}
-  (    1 N-000119 )
-  (    2 N-000117 )
- )
- ( /5042B585 $noname  R9 2.2k {Lib=R}
-  (    1 N-000068 )
-  (    2 N-000119 )
- )
-)
-*
-{ Allowed footprints by component:
-$component U4
- DIP-14__300
-$endlist
-$component U1
- DIP-20__300
-$endlist
-$component U5
- DIP-14__300
-$endlist
-$component U2
- DIP-16__300
-$endlist
-$component U3
- DIP-16__300
-$endlist
-$component D1
- D?
- S*
-$endlist
-$component C14
- CP*
- SM*
-$endlist
-$component C13
- CP*
- SM*
-$endlist
-$component C12
- CP*
- SM*
-$endlist
-$component C18
- CP*
- SM*
-$endlist
-$component C17
- CP*
- SM*
-$endlist
-$component C16
- CP*
- SM*
-$endlist
-$component C19
- CP*
- SM*
-$endlist
-$component C15
- CP*
- SM*
-$endlist
-$component C10
- SM*
- C?
- C1-1
-$endlist
-$component C8
- SM*
- C?
- C1-1
-$endlist
-$component C9
- SM*
- C?
- C1-1
-$endlist
-$component C1
- SM*
- C?
- C1-1
-$endlist
-$component C2
- SM*
- C?
- C1-1
-$endlist
-$component C11
- SM*
- C?
- C1-1
-$endlist
-$component C25
- SM*
- C?
- C1-1
-$endlist
-$component C20
- SM*
- C?
- C1-1
-$endlist
-$component C26
- SM*
- C?
- C1-1
-$endlist
-$component C23
- SM*
- C?
- C1-1
-$endlist
-$component C24
- SM*
- C?
- C1-1
-$endlist
-$component C21
- SM*
- C?
- C1-1
-$endlist
-$component C22
- SM*
- C?
- C1-1
-$endlist
-$component C7
- SM*
- C?
- C1-1
-$endlist
-$component C6
- SM*
- C?
- C1-1
-$endlist
-$component C5
- SM*
- C?
- C1-1
-$endlist
-$component C4
- SM*
- C?
- C1-1
-$endlist
-$component C3
- SM*
- C?
- C1-1
-$endlist
-$component R4
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R13
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R6
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R17
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R5
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R12
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R15
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R16
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R14
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R3
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R11
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R10
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R1
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R2
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R7
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R8
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R9
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$endfootprintlist
-}
-{ Pin List by Nets
-Net 1 "GND" "GND"
- U5 7
- J1 1
- U3 8
- R2 1
- R3 1
- R15 2
- R5 2
- C13 2
- C14 1
- D1 1
- Q1 1
- C26 2
- C5 2
- C25 1
- C11 2
- C2 2
- C1 2
- C9 2
- C10 1
- C15 2
- C8 2
- C12 2
- C17 2
- U2 4
- U2 8
- BUS1 31
- U9 4
- R4 2
- RV1 1
- C3 2
- C4 2
- C6 2
- C7 2
- C22 2
- U7 6
- C24 2
- U6 12
- U1 10
- BUS1 1
- U4 7
- HOLE2 1
- HOLE1 1
- BUS1 10
-Net 2 "VCC" "VCC"
- U4 14
- R7 1
- C7 1
- U4 10
- C6 1
- C5 1
- C4 1
- C3 1
- U4 13
- C16 1
- C12 1
- C1 1
- C2 1
- U3 16
- U4 4
- U5 14
- U4 1
- BUS1 29
- U2 16
- U7 1
- U1 20
- U6 1
- BUS1 3
-Net 3 "/D0" "D0"
- U1 2
- BUS1 40
-Net 4 "/D1" "D1"
- BUS1 39
- U1 3
-Net 5 "/D2" "D2"
- U1 4
- BUS1 38
-Net 6 "/D3" "D3"
- BUS1 37
- U1 5
-Net 7 "/D4" "D4"
- U1 6
- BUS1 36
-Net 8 "/D5" "D5"
- BUS1 35
- U1 7
-Net 9 "/D6" "D6"
- BUS1 34
- U1 8
-Net 10 "/D7" "D7"
- U1 9
- BUS1 33
-Net 11 "/~READ" "~READ"
- U5 10
- U6 6
- U1 1
-Net 16 "/RESET" "RESET"
- BUS1 2
- U5 13
-Net 17 "/DB7" "DB7"
- U6 18
- U1 11
-Net 18 "/DB6" "DB6"
- U6 17
- U1 12
-Net 19 "/DB5" "DB5"
- U6 16
- U1 13
-Net 20 "/DB4" "DB4"
- U1 14
- U6 15
-Net 21 "/DB3" "DB3"
- U1 15
- U6 14
-Net 22 "/DB2" "DB2"
- U6 13
- U1 16
-Net 23 "/DB1" "DB1"
- U6 11
- U1 17
-Net 24 "/DB0" "DB0"
- U1 18
- U6 10
-Net 25 "/0x388" "0x388"
- U1 19
- P2 7
- P2 2
- P2 8
- U6 7
- P2 4
- P2 6
- U3 9
-Net 26 "/OSC" "OSC"
- U4 3
- BUS1 30
-Net 27 "VDD" "VDD"
- U8 11
- U9 6
- BUS1 9
- C9 1
- C8 1
- C13 1
-Net 28 "VSS" "VSS"
- BUS1 7
- C14 2
- C10 2
- U8 7
-Net 29 "/IRQ2" "IRQ2"
- P1 5
- BUS1 4
-Net 30 "" ""
- U8 9
- U7 7
- C15 1
-Net 31 "" ""
- U8 10
- U7 8
- U8 8
-Net 46 "/MCLK" "MCLK"
- U4 9
- U6 24
-Net 47 "/DAC_DATA" "DAC_DATA"
- U6 21
- U7 4
-Net 48 "/DAC_SYNC" "DAC_SYNC"
- U7 3
- U6 20
-Net 49 "/DAC_CLK" "DAC_CLK"
- U7 5
- U6 23
-Net 50 "" ""
- U8 5
- U7 2
-Net 52 "" ""
- C11 1
- U9 2
-Net 53 "/AMP_OUT" "AMP_OUT"
- U9 5
- C20 1
- C18 1
-Net 54 "/A8" "A8"
- U3 3
- BUS1 54
-Net 55 "/A4" "A4"
- U3 1
- BUS1 58
-Net 56 "/A7" "A7"
- BUS1 55
- U3 2
-Net 57 "/AEN" "AEN"
- BUS1 42
- U3 4
-Net 58 "/A9" "A9"
- BUS1 53
- U3 6
-Net 59 "/0x288" "0x288"
- U3 13
- P2 3
-Net 60 "/0x218" "0x218"
- P2 1
- U3 14
-Net 61 "/AUDIO_OUT" "AUDIO_OUT"
- R16 2
- R5 1
- R17 2
- C18 2
-Net 62 "" ""
- Q1 2
- R12 1
-Net 63 "" ""
- C20 2
- R15 1
-Net 64 "" ""
- R3 2
- R14 2
- U8 14
-Net 65 "/RIGHT" "RIGHT"
- J1 2
- R17 1
-Net 66 "" ""
- C21 2
- U8 3
- R1 1
- R10 2
-Net 67 "/~IRQ" "~IRQ"
- U5 1
- R7 2
- U6 2
-Net 68 "" ""
- U8 2
- R9 1
- C22 1
-Net 69 "" ""
- R10 1
- C23 1
- R11 2
-Net 70 "" ""
- U3 5
- U2 15
-Net 71 "/RC3" "RC3"
- R6 1
- RV1 3
- C26 1
-Net 72 "/RC1" "RC1"
- C19 2
- Q1 3
- R4 1
- R13 2
-Net 82 "/AMP_IN" "AMP_IN"
- RV1 2
- U9 3
-Net 83 "/~IOW" "~IOW"
- BUS1 13
- U5 5
-Net 92 "/A0" "A0"
- BUS1 62
- U6 4
-Net 93 "/IRQ5" "IRQ5"
- P1 3
- BUS1 23
-Net 95 "/~IOR" "~IOR"
- BUS1 14
- U5 3
-Net 99 "/IRQ3" "IRQ3"
- P1 1
- BUS1 25
-Net 101 "/IRQ" "IRQ"
- P1 2
- U5 2
- P1 6
- P1 4
-Net 102 "/A5" "A5"
- U2 3
- BUS1 57
-Net 103 "/A1" "A1"
- BUS1 61
- U2 1
-Net 104 "/A2" "A2"
- U2 2
- BUS1 60
-Net 105 "/A6" "A6"
- BUS1 56
- U2 5
-Net 106 "/A3" "A3"
- U2 6
- BUS1 59
-Net 107 "" ""
- U5 11
- U5 4
-Net 108 "" ""
- C17 1
- U9 7
-Net 110 "/~RESET" "~RESET"
- U5 12
- U6 3
-Net 111 "/~WRITE" "~WRITE"
- U5 8
- U6 5
-Net 112 "" ""
- U5 6
- U5 9
-Net 113 "/0x318" "0x318"
- U3 10
- P2 5
-Net 114 "/RC2" "RC2"
- R13 1
- R6 2
- C25 2
-Net 115 "" ""
- U4 5
- U4 11
-Net 116 "" ""
- U4 2
- U4 6
-Net 117 "" ""
- U8 4
- U8 6
- R8 2
-Net 118 "" ""
- R11 1
- C24 1
- U8 13
-Net 119 "" ""
- C21 1
- R9 2
- R8 1
-Net 120 "" ""
- U8 1
- R2 2
- R1 2
-Net 123 "/LEFT" "LEFT"
- J1 5
- R16 1
-Net 124 "" ""
- U4 12
- U4 8
-Net 125 "" ""
- C16 2
- R12 2
- D1 2
-Net 126 "/FILTER_OUT" "FILTER_OUT"
- C23 2
- R14 1
- U8 12
- C19 1
-}
-#End
+(export (version D)
+  (design
+    (source "C:\\Users\\skiselev\\Documents\\My Projects\\ISA OPL2\\isa_opl2.sch")
+    (date "4/12/2019 11:56:59 AM")
+    (tool "Eeschema (5.1.0)-1")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date "8 sep 2012")
+        (source isa_opl2.sch)
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref HOLE2)
+      (value CONN_1)
+      (libsource (lib isa_opl2-rescue) (part CONN_1) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 504842E8))
+    (comp (ref HOLE1)
+      (value CONN_1)
+      (libsource (lib isa_opl2-rescue) (part CONN_1) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 504842E1))
+    (comp (ref U4)
+      (value 74LS74)
+      (libsource (lib 74ls-sergey) (part 74LS74) (description "Dual D-Type Positive-Edge Triggered Flip-Flops With Preset and Clear"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 50483155))
+    (comp (ref J1)
+      (value AUDIO_OUT)
+      (libsource (lib isa_opl2-rescue) (part CONN_5) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 50476F72))
+    (comp (ref U8)
+      (value RC4136)
+      (libsource (lib devices-sergey) (part RC4136) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5043185F))
+    (comp (ref U7)
+      (value Y3014B)
+      (libsource (lib controllers-sergey) (part Y3014B) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 50431497))
+    (comp (ref P2)
+      (value ADDR)
+      (libsource (lib isa_opl2-rescue) (part CONN_4X2) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 504301D6))
+    (comp (ref P1)
+      (value IRQ)
+      (libsource (lib isa_opl2-rescue) (part CONN_3X2) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 504301D0))
+    (comp (ref U6)
+      (value YM3812)
+      (libsource (lib controllers-sergey) (part YM3812) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042F888))
+    (comp (ref U1)
+      (value 74LS245)
+      (libsource (lib 74ls-sergey) (part 74LS245) (description "Octal Bus Transceiver"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042C02D))
+    (comp (ref BUS1)
+      (value BUSPC)
+      (libsource (lib isa_opl2-rescue) (part BUSPC) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B74E))
+    (comp (ref U9)
+      (value LM386)
+      (libsource (lib devices-sergey) (part LM386) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B725))
+    (comp (ref U5)
+      (value 74LS04)
+      (libsource (lib 74ls-sergey) (part 74LS04) (description "Quad 2-Input NAND Gate"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B70A))
+    (comp (ref U2)
+      (value 74LS138)
+      (libsource (lib 74ls-sergey) (part 74LS138) (description "3-Line To 8-Line Decoder/Demultiplexer"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B6E6))
+    (comp (ref U3)
+      (value 74LS138)
+      (libsource (lib 74ls-sergey) (part 74LS138) (description "3-Line To 8-Line Decoder/Demultiplexer"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B6E1))
+    (comp (ref Q1)
+      (value 2N3904)
+      (libsource (lib isa_opl2-rescue) (part NPN) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B6B8))
+    (comp (ref D1)
+      (value 1N4148)
+      (libsource (lib isa_opl2-rescue) (part DIODE) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B6A7))
+    (comp (ref C14)
+      (value 10uF)
+      (libsource (lib isa_opl2-rescue) (part CP1) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B699))
+    (comp (ref C13)
+      (value 10uF)
+      (libsource (lib isa_opl2-rescue) (part CP1) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B696))
+    (comp (ref C12)
+      (value 10uF)
+      (libsource (lib isa_opl2-rescue) (part CP1) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B693))
+    (comp (ref C18)
+      (value 220uF)
+      (libsource (lib isa_opl2-rescue) (part CP1) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B690))
+    (comp (ref C17)
+      (value 10uF)
+      (libsource (lib isa_opl2-rescue) (part CP1) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B68D))
+    (comp (ref C16)
+      (value 10uF)
+      (libsource (lib isa_opl2-rescue) (part CP1) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B68A))
+    (comp (ref C19)
+      (value 4.7uF)
+      (libsource (lib isa_opl2-rescue) (part CP1) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B688))
+    (comp (ref C15)
+      (value 10uF)
+      (libsource (lib isa_opl2-rescue) (part CP1) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B676))
+    (comp (ref C10)
+      (value 0.1uF)
+      (libsource (lib isa_opl2-rescue) (part C) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B66F))
+    (comp (ref C8)
+      (value 0.1uF)
+      (libsource (lib isa_opl2-rescue) (part C) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B66D))
+    (comp (ref C9)
+      (value 0.1uF)
+      (libsource (lib isa_opl2-rescue) (part C) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B66A))
+    (comp (ref C1)
+      (value 0.1uF)
+      (libsource (lib isa_opl2-rescue) (part C) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B667))
+    (comp (ref C2)
+      (value 0.1uF)
+      (libsource (lib isa_opl2-rescue) (part C) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B664))
+    (comp (ref C11)
+      (value 0.1uF)
+      (libsource (lib isa_opl2-rescue) (part C) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B662))
+    (comp (ref C25)
+      (value 1nF)
+      (libsource (lib isa_opl2-rescue) (part C) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B660))
+    (comp (ref C20)
+      (value 47nF)
+      (libsource (lib isa_opl2-rescue) (part C) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B65E))
+    (comp (ref C26)
+      (value 270pF)
+      (libsource (lib isa_opl2-rescue) (part C) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B65C))
+    (comp (ref C23)
+      (value 4.7nF)
+      (libsource (lib isa_opl2-rescue) (part C) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B65A))
+    (comp (ref C24)
+      (value 4.7nF)
+      (libsource (lib isa_opl2-rescue) (part C) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B658))
+    (comp (ref C21)
+      (value 4.7nF)
+      (libsource (lib isa_opl2-rescue) (part C) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B656))
+    (comp (ref C22)
+      (value 4.7nF)
+      (libsource (lib isa_opl2-rescue) (part C) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B654))
+    (comp (ref C7)
+      (value 0.1uF)
+      (libsource (lib isa_opl2-rescue) (part C) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B652))
+    (comp (ref C6)
+      (value 0.1uF)
+      (libsource (lib isa_opl2-rescue) (part C) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B635))
+    (comp (ref C5)
+      (value 0.1uF)
+      (libsource (lib isa_opl2-rescue) (part C) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B633))
+    (comp (ref C4)
+      (value 0.1uF)
+      (libsource (lib isa_opl2-rescue) (part C) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B62F))
+    (comp (ref C3)
+      (value 0.1uF)
+      (libsource (lib isa_opl2-rescue) (part C) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B629))
+    (comp (ref RV1)
+      (value 10k)
+      (libsource (lib isa_opl2-rescue) (part POT) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B604))
+    (comp (ref R13)
+      (value 2.2k)
+      (libsource (lib isa_opl2-rescue) (part R) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B5C0))
+    (comp (ref R6)
+      (value 8.2k)
+      (libsource (lib isa_opl2-rescue) (part R) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B5BD))
+    (comp (ref R17)
+      (value 10)
+      (libsource (lib isa_opl2-rescue) (part R) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B5B8))
+    (comp (ref R5)
+      (value 10k)
+      (libsource (lib isa_opl2-rescue) (part R) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B5B4))
+    (comp (ref R12)
+      (value 2.2k)
+      (libsource (lib isa_opl2-rescue) (part R) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B5B1))
+    (comp (ref R15)
+      (value 10)
+      (libsource (lib isa_opl2-rescue) (part R) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B5AF))
+    (comp (ref R16)
+      (value 10)
+      (libsource (lib isa_opl2-rescue) (part R) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B5AD))
+    (comp (ref R14)
+      (value 1.5k)
+      (libsource (lib isa_opl2-rescue) (part R) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B5AB))
+    (comp (ref R3)
+      (value 10k)
+      (libsource (lib isa_opl2-rescue) (part R) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B5A7))
+    (comp (ref R11)
+      (value 2.2k)
+      (libsource (lib isa_opl2-rescue) (part R) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B5A5))
+    (comp (ref R10)
+      (value 2.2k)
+      (libsource (lib isa_opl2-rescue) (part R) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B5A3))
+    (comp (ref R1)
+      (value 12k)
+      (libsource (lib isa_opl2-rescue) (part R) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B5A0))
+    (comp (ref R2)
+      (value 10k)
+      (libsource (lib isa_opl2-rescue) (part R) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B599))
+    (comp (ref R7)
+      (value 2.2k)
+      (libsource (lib isa_opl2-rescue) (part R) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B58B))
+    (comp (ref R8)
+      (value 2.2k)
+      (libsource (lib isa_opl2-rescue) (part R) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B588))
+    (comp (ref R9)
+      (value 2.2k)
+      (libsource (lib isa_opl2-rescue) (part R) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B585))
+    (comp (ref R4)
+      (value 10k)
+      (libsource (lib isa_opl2-rescue) (part R) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5042B5C4)))
+  (libparts
+    (libpart (lib 74ls-sergey) (part 74LS04)
+      (description "Quad 2-Input NAND Gate")
+      (footprints
+        (fp DIP-14__300))
+      (fields
+        (field (name Reference) U)
+        (field (name Value) 74LS04))
+      (pins
+        (pin (num 1) (name ~) (type input))
+        (pin (num 2) (name ~) (type output))
+        (pin (num 3) (name ~) (type input))
+        (pin (num 4) (name ~) (type output))
+        (pin (num 5) (name ~) (type input))
+        (pin (num 6) (name ~) (type output))
+        (pin (num 7) (name GND) (type power_in))
+        (pin (num 8) (name ~) (type output))
+        (pin (num 9) (name ~) (type input))
+        (pin (num 10) (name ~) (type output))
+        (pin (num 11) (name ~) (type input))
+        (pin (num 12) (name ~) (type output))
+        (pin (num 13) (name ~) (type input))
+        (pin (num 14) (name VCC) (type power_in))))
+    (libpart (lib 74ls-sergey) (part 74LS138)
+      (description "3-Line To 8-Line Decoder/Demultiplexer")
+      (footprints
+        (fp DIP-16__300))
+      (fields
+        (field (name Reference) U)
+        (field (name Value) 74LS138))
+      (pins
+        (pin (num 1) (name A) (type input))
+        (pin (num 2) (name B) (type input))
+        (pin (num 3) (name C) (type input))
+        (pin (num 4) (name ~G2A) (type input))
+        (pin (num 5) (name ~G2B) (type input))
+        (pin (num 6) (name G1) (type input))
+        (pin (num 7) (name ~Y7) (type output))
+        (pin (num 8) (name GND) (type power_in))
+        (pin (num 9) (name ~Y6) (type output))
+        (pin (num 10) (name ~Y5) (type output))
+        (pin (num 11) (name ~Y4) (type output))
+        (pin (num 12) (name ~Y3) (type output))
+        (pin (num 13) (name ~Y2) (type output))
+        (pin (num 14) (name ~Y1) (type output))
+        (pin (num 15) (name ~Y0) (type output))
+        (pin (num 16) (name VCC) (type power_in))))
+    (libpart (lib 74ls-sergey) (part 74LS245)
+      (description "Octal Bus Transceiver")
+      (footprints
+        (fp DIP-20__300))
+      (fields
+        (field (name Reference) U)
+        (field (name Value) 74LS245))
+      (pins
+        (pin (num 1) (name DIR) (type input))
+        (pin (num 2) (name A1) (type BiDi))
+        (pin (num 3) (name A2) (type BiDi))
+        (pin (num 4) (name A3) (type BiDi))
+        (pin (num 5) (name A4) (type BiDi))
+        (pin (num 6) (name A5) (type BiDi))
+        (pin (num 7) (name A6) (type BiDi))
+        (pin (num 8) (name A7) (type BiDi))
+        (pin (num 9) (name A8) (type BiDi))
+        (pin (num 10) (name GND) (type power_in))
+        (pin (num 11) (name B8) (type BiDi))
+        (pin (num 12) (name B7) (type BiDi))
+        (pin (num 13) (name B6) (type BiDi))
+        (pin (num 14) (name B5) (type BiDi))
+        (pin (num 15) (name B4) (type BiDi))
+        (pin (num 16) (name B3) (type BiDi))
+        (pin (num 17) (name B2) (type BiDi))
+        (pin (num 18) (name B1) (type BiDi))
+        (pin (num 19) (name ~G) (type input))
+        (pin (num 20) (name VCC) (type power_in))))
+    (libpart (lib 74ls-sergey) (part 74LS74)
+      (description "Dual D-Type Positive-Edge Triggered Flip-Flops With Preset and Clear")
+      (footprints
+        (fp DIP-14__300))
+      (fields
+        (field (name Reference) U)
+        (field (name Value) 74LS74))
+      (pins
+        (pin (num 1) (name ~CLR) (type input))
+        (pin (num 2) (name D) (type input))
+        (pin (num 3) (name CLK) (type input))
+        (pin (num 4) (name ~PR) (type input))
+        (pin (num 5) (name Q) (type output))
+        (pin (num 6) (name ~Q) (type output))
+        (pin (num 7) (name GND) (type power_in))
+        (pin (num 8) (name ~Q) (type output))
+        (pin (num 9) (name Q) (type output))
+        (pin (num 10) (name ~PR) (type input))
+        (pin (num 11) (name CLK) (type input))
+        (pin (num 12) (name D) (type input))
+        (pin (num 13) (name ~CLR) (type input))
+        (pin (num 14) (name VCC) (type power_in))))
+    (libpart (lib controllers-sergey) (part Y3014B)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) Y3014B))
+      (pins
+        (pin (num 1) (name VCC) (type power_in))
+        (pin (num 2) (name ToBUFF) (type output))
+        (pin (num 3) (name LOAD) (type input))
+        (pin (num 4) (name SD) (type input))
+        (pin (num 5) (name fI) (type input))
+        (pin (num 6) (name GND) (type power_in))
+        (pin (num 7) (name RB) (type output))
+        (pin (num 8) (name MP) (type input))))
+    (libpart (lib controllers-sergey) (part YM3812)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) YM3812))
+      (pins
+        (pin (num 1) (name VCC) (type power_in))
+        (pin (num 2) (name ~IRQ) (type output))
+        (pin (num 3) (name ~IC) (type input))
+        (pin (num 4) (name A0) (type input))
+        (pin (num 5) (name ~WR) (type input))
+        (pin (num 6) (name ~RD) (type input))
+        (pin (num 7) (name ~CS) (type input))
+        (pin (num 10) (name D0) (type 3state))
+        (pin (num 11) (name D1) (type 3state))
+        (pin (num 12) (name GND) (type power_in))
+        (pin (num 13) (name D2) (type 3state))
+        (pin (num 14) (name D3) (type 3state))
+        (pin (num 15) (name D4) (type 3state))
+        (pin (num 16) (name D5) (type 3state))
+        (pin (num 17) (name D6) (type 3state))
+        (pin (num 18) (name D7) (type 3state))
+        (pin (num 20) (name SH) (type output))
+        (pin (num 21) (name MO) (type output))
+        (pin (num 23) (name fSY) (type output))
+        (pin (num 24) (name fM) (type input))))
+    (libpart (lib devices-sergey) (part LM386)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) LM386))
+      (pins
+        (pin (num 1) (name GAIN) (type passive))
+        (pin (num 2) (name -) (type input))
+        (pin (num 3) (name +) (type input))
+        (pin (num 4) (name ~) (type output))
+        (pin (num 5) (name +) (type input))
+        (pin (num 6) (name -) (type input))
+        (pin (num 7) (name BYPASS) (type passive))
+        (pin (num 8) (name GAIN) (type passive))
+        (pin (num 9) (name +) (type input))
+        (pin (num 10) (name ~) (type output))
+        (pin (num 12) (name ~) (type output))
+        (pin (num 13) (name +) (type input))
+        (pin (num 14) (name -) (type input))))
+    (libpart (lib devices-sergey) (part RC4136)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) RC4136))
+      (pins
+        (pin (num 1) (name -) (type input))
+        (pin (num 2) (name +) (type input))
+        (pin (num 3) (name ~) (type output))
+        (pin (num 4) (name ~) (type output))
+        (pin (num 5) (name +) (type input))
+        (pin (num 6) (name -) (type input))
+        (pin (num 7) (name VSS) (type power_in))
+        (pin (num 8) (name -) (type input))
+        (pin (num 9) (name +) (type input))
+        (pin (num 10) (name ~) (type output))
+        (pin (num 11) (name VDD) (type power_in))
+        (pin (num 12) (name ~) (type output))
+        (pin (num 13) (name +) (type input))
+        (pin (num 14) (name -) (type input))))
+    (libpart (lib isa_opl2-rescue) (part BUSPC)
+      (fields
+        (field (name Reference) BUS)
+        (field (name Value) BUSPC))
+      (pins
+        (pin (num 1) (name GND) (type passive))
+        (pin (num 2) (name RESET) (type output))
+        (pin (num 3) (name VCC) (type passive))
+        (pin (num 4) (name INQ2) (type passive))
+        (pin (num 5) (name -5V) (type passive))
+        (pin (num 6) (name DRQ2) (type passive))
+        (pin (num 7) (name -12V) (type passive))
+        (pin (num 8) (name UNUSED) (type passive))
+        (pin (num 9) (name +12V) (type passive))
+        (pin (num 10) (name GND) (type passive))
+        (pin (num 11) (name MEM) (type output))
+        (pin (num 12) (name MEM) (type output))
+        (pin (num 13) (name IOW) (type output))
+        (pin (num 14) (name IOR) (type output))
+        (pin (num 15) (name DACK3) (type passive))
+        (pin (num 16) (name DRQ3) (type passive))
+        (pin (num 17) (name DACK1) (type passive))
+        (pin (num 18) (name DRQ1) (type passive))
+        (pin (num 19) (name DACK0) (type passive))
+        (pin (num 20) (name CLK) (type output))
+        (pin (num 21) (name IRQ7) (type passive))
+        (pin (num 22) (name IRQ6) (type passive))
+        (pin (num 23) (name IRQ5) (type passive))
+        (pin (num 24) (name IRQ4) (type passive))
+        (pin (num 25) (name IRQ3) (type passive))
+        (pin (num 26) (name DACK2) (type passive))
+        (pin (num 27) (name TC) (type passive))
+        (pin (num 28) (name ALE) (type output))
+        (pin (num 29) (name VCC) (type passive))
+        (pin (num 30) (name OSC) (type output))
+        (pin (num 31) (name GND) (type passive))
+        (pin (num 32) (name IO) (type passive))
+        (pin (num 33) (name DB7) (type 3state))
+        (pin (num 34) (name DB6) (type 3state))
+        (pin (num 35) (name DB5) (type 3state))
+        (pin (num 36) (name DB4) (type 3state))
+        (pin (num 37) (name DB3) (type 3state))
+        (pin (num 38) (name DB2) (type 3state))
+        (pin (num 39) (name DB1) (type 3state))
+        (pin (num 40) (name DB0) (type 3state))
+        (pin (num 41) (name IO_READY) (type passive))
+        (pin (num 42) (name AEN) (type output))
+        (pin (num 43) (name BA19) (type 3state))
+        (pin (num 44) (name BA18) (type 3state))
+        (pin (num 45) (name BA17) (type 3state))
+        (pin (num 46) (name BA16) (type 3state))
+        (pin (num 47) (name BA15) (type 3state))
+        (pin (num 48) (name BA14) (type 3state))
+        (pin (num 49) (name BA13) (type 3state))
+        (pin (num 50) (name BA12) (type 3state))
+        (pin (num 51) (name BA11) (type 3state))
+        (pin (num 52) (name BA10) (type 3state))
+        (pin (num 53) (name BA09) (type 3state))
+        (pin (num 54) (name BA08) (type 3state))
+        (pin (num 55) (name BA07) (type 3state))
+        (pin (num 56) (name BA06) (type 3state))
+        (pin (num 57) (name BA05) (type 3state))
+        (pin (num 58) (name BA04) (type 3state))
+        (pin (num 59) (name BA03) (type 3state))
+        (pin (num 60) (name BA02) (type 3state))
+        (pin (num 61) (name BA01) (type 3state))
+        (pin (num 62) (name BA00) (type 3state))))
+    (libpart (lib isa_opl2-rescue) (part C)
+      (footprints
+        (fp SM*)
+        (fp C?)
+        (fp C1-1))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib isa_opl2-rescue) (part CONN_1)
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_1))
+      (pins
+        (pin (num 1) (name 1) (type passive))))
+    (libpart (lib isa_opl2-rescue) (part CONN_3X2)
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_3X2))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name 3) (type passive))
+        (pin (num 4) (name 4) (type passive))
+        (pin (num 5) (name 5) (type passive))
+        (pin (num 6) (name 6) (type passive))))
+    (libpart (lib isa_opl2-rescue) (part CONN_4X2)
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_4X2))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name 3) (type passive))
+        (pin (num 4) (name 4) (type passive))
+        (pin (num 5) (name 5) (type passive))
+        (pin (num 6) (name 6) (type passive))
+        (pin (num 7) (name 7) (type passive))
+        (pin (num 8) (name 8) (type passive))))
+    (libpart (lib isa_opl2-rescue) (part CONN_5)
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_5))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+        (pin (num 3) (name ~) (type passive))
+        (pin (num 4) (name ~) (type passive))
+        (pin (num 5) (name ~) (type passive))))
+    (libpart (lib isa_opl2-rescue) (part CP1)
+      (footprints
+        (fp CP*)
+        (fp SM*))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) CP1))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib isa_opl2-rescue) (part DIODE)
+      (footprints
+        (fp D?)
+        (fp S*))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) DIODE))
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name K) (type passive))))
+    (libpart (lib isa_opl2-rescue) (part NPN)
+      (fields
+        (field (name Reference) Q)
+        (field (name Value) NPN))
+      (pins
+        (pin (num 1) (name E) (type passive))
+        (pin (num 2) (name B) (type input))
+        (pin (num 3) (name C) (type passive))))
+    (libpart (lib isa_opl2-rescue) (part POT)
+      (fields
+        (field (name Reference) RV)
+        (field (name Value) POT))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name 3) (type passive))))
+    (libpart (lib isa_opl2-rescue) (part R)
+      (footprints
+        (fp R?)
+        (fp SM0603)
+        (fp SM0805)
+        (fp R?-*)
+        (fp SM1206))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive)))))
+  (libraries
+    (library (logical 74ls-sergey)
+      (uri "C:/Users/skiselev/Documents/My Projects/KiCad/library/74ls-sergey.lib"))
+    (library (logical controllers-sergey)
+      (uri "C:/Users/skiselev/Documents/My Projects/KiCad/library/controllers-sergey.lib"))
+    (library (logical devices-sergey)
+      (uri "C:/Users/skiselev/Documents/My Projects/KiCad/library/devices-sergey.lib"))
+    (library (logical isa_opl2-rescue)
+      (uri "C:\\Users\\skiselev\\Documents\\My Projects\\ISA OPL2/isa_opl2-rescue.lib")))
+  (nets
+    (net (code 1) (name GND)
+      (node (ref U7) (pin 6))
+      (node (ref C17) (pin 2))
+      (node (ref C12) (pin 2))
+      (node (ref C13) (pin 2))
+      (node (ref C14) (pin 1))
+      (node (ref D1) (pin 1))
+      (node (ref Q1) (pin 1))
+      (node (ref C24) (pin 2))
+      (node (ref C26) (pin 2))
+      (node (ref C25) (pin 1))
+      (node (ref C11) (pin 2))
+      (node (ref C2) (pin 2))
+      (node (ref R4) (pin 2))
+      (node (ref R2) (pin 1))
+      (node (ref C22) (pin 2))
+      (node (ref R3) (pin 1))
+      (node (ref R15) (pin 2))
+      (node (ref R5) (pin 2))
+      (node (ref RV1) (pin 1))
+      (node (ref C3) (pin 2))
+      (node (ref C4) (pin 2))
+      (node (ref C5) (pin 2))
+      (node (ref C6) (pin 2))
+      (node (ref C7) (pin 2))
+      (node (ref U5) (pin 7))
+      (node (ref U1) (pin 10))
+      (node (ref C1) (pin 2))
+      (node (ref C9) (pin 2))
+      (node (ref C8) (pin 2))
+      (node (ref C10) (pin 1))
+      (node (ref C15) (pin 2))
+      (node (ref U5) (pin 7))
+      (node (ref U5) (pin 7))
+      (node (ref U5) (pin 7))
+      (node (ref U5) (pin 7))
+      (node (ref U3) (pin 8))
+      (node (ref U6) (pin 12))
+      (node (ref U2) (pin 8))
+      (node (ref U5) (pin 7))
+      (node (ref U2) (pin 4))
+      (node (ref U9) (pin 4))
+      (node (ref U4) (pin 7))
+      (node (ref BUS1) (pin 1))
+      (node (ref BUS1) (pin 10))
+      (node (ref U4) (pin 7))
+      (node (ref HOLE1) (pin 1))
+      (node (ref HOLE2) (pin 1))
+      (node (ref J1) (pin 1))
+      (node (ref BUS1) (pin 31)))
+    (net (code 2) (name "Net-(BUS1-Pad11)")
+      (node (ref BUS1) (pin 11)))
+    (net (code 3) (name "Net-(BUS1-Pad12)")
+      (node (ref BUS1) (pin 12)))
+    (net (code 4) (name "Net-(BUS1-Pad15)")
+      (node (ref BUS1) (pin 15)))
+    (net (code 5) (name "Net-(BUS1-Pad16)")
+      (node (ref BUS1) (pin 16)))
+    (net (code 6) (name "Net-(BUS1-Pad17)")
+      (node (ref BUS1) (pin 17)))
+    (net (code 7) (name "Net-(BUS1-Pad18)")
+      (node (ref BUS1) (pin 18)))
+    (net (code 8) (name "Net-(BUS1-Pad19)")
+      (node (ref BUS1) (pin 19)))
+    (net (code 9) (name /~IOR)
+      (node (ref BUS1) (pin 14))
+      (node (ref U5) (pin 3)))
+    (net (code 10) (name /~IOW)
+      (node (ref U5) (pin 5))
+      (node (ref BUS1) (pin 13)))
+    (net (code 11) (name "Net-(BUS1-Pad6)")
+      (node (ref BUS1) (pin 6)))
+    (net (code 12) (name "Net-(BUS1-Pad47)")
+      (node (ref BUS1) (pin 47)))
+    (net (code 13) (name "Net-(BUS1-Pad48)")
+      (node (ref BUS1) (pin 48)))
+    (net (code 14) (name "Net-(BUS1-Pad49)")
+      (node (ref BUS1) (pin 49)))
+    (net (code 15) (name "Net-(BUS1-Pad5)")
+      (node (ref BUS1) (pin 5)))
+    (net (code 16) (name "Net-(BUS1-Pad50)")
+      (node (ref BUS1) (pin 50)))
+    (net (code 17) (name "Net-(BUS1-Pad51)")
+      (node (ref BUS1) (pin 51)))
+    (net (code 18) (name "Net-(BUS1-Pad52)")
+      (node (ref BUS1) (pin 52)))
+    (net (code 19) (name /A9)
+      (node (ref U3) (pin 6))
+      (node (ref BUS1) (pin 53)))
+    (net (code 20) (name /A8)
+      (node (ref U3) (pin 3))
+      (node (ref BUS1) (pin 54)))
+    (net (code 21) (name /A7)
+      (node (ref U3) (pin 2))
+      (node (ref BUS1) (pin 55)))
+    (net (code 22) (name /A6)
+      (node (ref U2) (pin 5))
+      (node (ref BUS1) (pin 56)))
+    (net (code 23) (name /A5)
+      (node (ref U2) (pin 3))
+      (node (ref BUS1) (pin 57)))
+    (net (code 24) (name /A4)
+      (node (ref U3) (pin 1))
+      (node (ref BUS1) (pin 58)))
+    (net (code 25) (name /A3)
+      (node (ref U2) (pin 6))
+      (node (ref BUS1) (pin 59)))
+    (net (code 26) (name "Net-(BUS1-Pad46)")
+      (node (ref BUS1) (pin 46)))
+    (net (code 27) (name /A2)
+      (node (ref U2) (pin 2))
+      (node (ref BUS1) (pin 60)))
+    (net (code 28) (name /A1)
+      (node (ref BUS1) (pin 61))
+      (node (ref U2) (pin 1)))
+    (net (code 29) (name /A0)
+      (node (ref U6) (pin 4))
+      (node (ref BUS1) (pin 62)))
+    (net (code 30) (name VSS)
+      (node (ref C14) (pin 2))
+      (node (ref BUS1) (pin 7))
+      (node (ref C10) (pin 2))
+      (node (ref U8) (pin 7))
+      (node (ref U8) (pin 7))
+      (node (ref U8) (pin 7))
+      (node (ref U8) (pin 7)))
+    (net (code 31) (name "Net-(BUS1-Pad8)")
+      (node (ref BUS1) (pin 8)))
+    (net (code 32) (name VDD)
+      (node (ref U9) (pin 6))
+      (node (ref BUS1) (pin 9))
+      (node (ref U8) (pin 11))
+      (node (ref C8) (pin 1))
+      (node (ref C9) (pin 1))
+      (node (ref U8) (pin 11))
+      (node (ref U8) (pin 11))
+      (node (ref C13) (pin 1))
+      (node (ref U8) (pin 11)))
+    (net (code 33) (name "Net-(U9-Pad1)")
+      (node (ref U9) (pin 1)))
+    (net (code 34) (name "Net-(C11-Pad1)")
+      (node (ref U9) (pin 2))
+      (node (ref C11) (pin 1)))
+    (net (code 35) (name /AMP_IN)
+      (node (ref RV1) (pin 2))
+      (node (ref U9) (pin 3)))
+    (net (code 36) (name "Net-(BUS1-Pad32)")
+      (node (ref BUS1) (pin 32)))
+    (net (code 37) (name /RESET)
+      (node (ref U5) (pin 13))
+      (node (ref BUS1) (pin 2)))
+    (net (code 38) (name "Net-(BUS1-Pad20)")
+      (node (ref BUS1) (pin 20)))
+    (net (code 39) (name "Net-(BUS1-Pad21)")
+      (node (ref BUS1) (pin 21)))
+    (net (code 40) (name "Net-(BUS1-Pad22)")
+      (node (ref BUS1) (pin 22)))
+    (net (code 41) (name /IRQ5)
+      (node (ref P1) (pin 3))
+      (node (ref BUS1) (pin 23)))
+    (net (code 42) (name "Net-(BUS1-Pad24)")
+      (node (ref BUS1) (pin 24)))
+    (net (code 43) (name /IRQ3)
+      (node (ref P1) (pin 1))
+      (node (ref BUS1) (pin 25)))
+    (net (code 44) (name "Net-(BUS1-Pad26)")
+      (node (ref BUS1) (pin 26)))
+    (net (code 45) (name "Net-(BUS1-Pad27)")
+      (node (ref BUS1) (pin 27)))
+    (net (code 46) (name "Net-(BUS1-Pad28)")
+      (node (ref BUS1) (pin 28)))
+    (net (code 47) (name VCC)
+      (node (ref U5) (pin 14))
+      (node (ref U7) (pin 1))
+      (node (ref C7) (pin 1))
+      (node (ref U5) (pin 14))
+      (node (ref U6) (pin 1))
+      (node (ref U1) (pin 20))
+      (node (ref C1) (pin 1))
+      (node (ref C16) (pin 1))
+      (node (ref BUS1) (pin 3))
+      (node (ref BUS1) (pin 29))
+      (node (ref C12) (pin 1))
+      (node (ref C2) (pin 1))
+      (node (ref U4) (pin 4))
+      (node (ref U4) (pin 13))
+      (node (ref U4) (pin 14))
+      (node (ref U4) (pin 1))
+      (node (ref R7) (pin 1))
+      (node (ref U5) (pin 14))
+      (node (ref U4) (pin 14))
+      (node (ref U4) (pin 10))
+      (node (ref C5) (pin 1))
+      (node (ref U2) (pin 16))
+      (node (ref U5) (pin 14))
+      (node (ref U3) (pin 16))
+      (node (ref C4) (pin 1))
+      (node (ref C3) (pin 1))
+      (node (ref U5) (pin 14))
+      (node (ref U5) (pin 14))
+      (node (ref C6) (pin 1)))
+    (net (code 48) (name /OSC)
+      (node (ref U4) (pin 3))
+      (node (ref BUS1) (pin 30)))
+    (net (code 49) (name /D7)
+      (node (ref U1) (pin 9))
+      (node (ref BUS1) (pin 33)))
+    (net (code 50) (name /D6)
+      (node (ref BUS1) (pin 34))
+      (node (ref U1) (pin 8)))
+    (net (code 51) (name /D5)
+      (node (ref U1) (pin 7))
+      (node (ref BUS1) (pin 35)))
+    (net (code 52) (name /D4)
+      (node (ref U1) (pin 6))
+      (node (ref BUS1) (pin 36)))
+    (net (code 53) (name /D3)
+      (node (ref BUS1) (pin 37))
+      (node (ref U1) (pin 5)))
+    (net (code 54) (name /D2)
+      (node (ref BUS1) (pin 38))
+      (node (ref U1) (pin 4)))
+    (net (code 55) (name /D1)
+      (node (ref BUS1) (pin 39))
+      (node (ref U1) (pin 3)))
+    (net (code 56) (name /IRQ2)
+      (node (ref BUS1) (pin 4))
+      (node (ref P1) (pin 5)))
+    (net (code 57) (name /D0)
+      (node (ref BUS1) (pin 40))
+      (node (ref U1) (pin 2)))
+    (net (code 58) (name "Net-(BUS1-Pad41)")
+      (node (ref BUS1) (pin 41)))
+    (net (code 59) (name /AEN)
+      (node (ref U3) (pin 4))
+      (node (ref BUS1) (pin 42)))
+    (net (code 60) (name "Net-(BUS1-Pad43)")
+      (node (ref BUS1) (pin 43)))
+    (net (code 61) (name "Net-(BUS1-Pad44)")
+      (node (ref BUS1) (pin 44)))
+    (net (code 62) (name "Net-(BUS1-Pad45)")
+      (node (ref BUS1) (pin 45)))
+    (net (code 63) (name /0x318)
+      (node (ref U3) (pin 10))
+      (node (ref P2) (pin 5)))
+    (net (code 64) (name "Net-(C15-Pad1)")
+      (node (ref U7) (pin 7))
+      (node (ref U8) (pin 9))
+      (node (ref C15) (pin 1)))
+    (net (code 65) (name "Net-(U7-Pad8)")
+      (node (ref U8) (pin 10))
+      (node (ref U8) (pin 8))
+      (node (ref U7) (pin 8)))
+    (net (code 66) (name "Net-(R8-Pad2)")
+      (node (ref R8) (pin 2))
+      (node (ref U8) (pin 6))
+      (node (ref U8) (pin 4)))
+    (net (code 67) (name "Net-(U7-Pad2)")
+      (node (ref U8) (pin 5))
+      (node (ref U7) (pin 2)))
+    (net (code 68) (name /DB1)
+      (node (ref U1) (pin 17))
+      (node (ref U6) (pin 11)))
+    (net (code 69) (name /DB2)
+      (node (ref U6) (pin 13))
+      (node (ref U1) (pin 16)))
+    (net (code 70) (name /DB0)
+      (node (ref U6) (pin 10))
+      (node (ref U1) (pin 18)))
+    (net (code 71) (name /DAC_DATA)
+      (node (ref U6) (pin 21))
+      (node (ref U7) (pin 4)))
+    (net (code 72) (name /~IRQ)
+      (node (ref R7) (pin 2))
+      (node (ref U5) (pin 1))
+      (node (ref U6) (pin 2)))
+    (net (code 73) (name /~RESET)
+      (node (ref U6) (pin 3))
+      (node (ref U5) (pin 12)))
+    (net (code 74) (name /~WRITE)
+      (node (ref U5) (pin 8))
+      (node (ref U6) (pin 5)))
+    (net (code 75) (name /~READ)
+      (node (ref U5) (pin 10))
+      (node (ref U1) (pin 1))
+      (node (ref U6) (pin 6)))
+    (net (code 76) (name /0x388)
+      (node (ref U1) (pin 19))
+      (node (ref U6) (pin 7))
+      (node (ref U3) (pin 9))
+      (node (ref P2) (pin 2))
+      (node (ref P2) (pin 4))
+      (node (ref P2) (pin 6))
+      (node (ref P2) (pin 7))
+      (node (ref P2) (pin 8)))
+    (net (code 77) (name /DAC_SYNC)
+      (node (ref U6) (pin 20))
+      (node (ref U7) (pin 3)))
+    (net (code 78) (name /DAC_CLK)
+      (node (ref U7) (pin 5))
+      (node (ref U6) (pin 23)))
+    (net (code 79) (name /DB3)
+      (node (ref U6) (pin 14))
+      (node (ref U1) (pin 15)))
+    (net (code 80) (name /MCLK)
+      (node (ref U6) (pin 24))
+      (node (ref U4) (pin 9)))
+    (net (code 81) (name /DB4)
+      (node (ref U6) (pin 15))
+      (node (ref U1) (pin 14)))
+    (net (code 82) (name /DB5)
+      (node (ref U6) (pin 16))
+      (node (ref U1) (pin 13)))
+    (net (code 83) (name /DB6)
+      (node (ref U1) (pin 12))
+      (node (ref U6) (pin 17)))
+    (net (code 84) (name /DB7)
+      (node (ref U6) (pin 18))
+      (node (ref U1) (pin 11)))
+    (net (code 85) (name "Net-(C21-Pad2)")
+      (node (ref C21) (pin 2))
+      (node (ref U8) (pin 3))
+      (node (ref R1) (pin 1))
+      (node (ref R10) (pin 2)))
+    (net (code 86) (name "Net-(R1-Pad2)")
+      (node (ref U8) (pin 1))
+      (node (ref R1) (pin 2))
+      (node (ref R2) (pin 2)))
+    (net (code 87) (name /RC3)
+      (node (ref C26) (pin 1))
+      (node (ref R6) (pin 1))
+      (node (ref RV1) (pin 3)))
+    (net (code 88) (name /RIGHT)
+      (node (ref J1) (pin 2))
+      (node (ref R17) (pin 1)))
+    (net (code 89) (name /AUDIO_OUT)
+      (node (ref R5) (pin 1))
+      (node (ref R17) (pin 2))
+      (node (ref C18) (pin 2))
+      (node (ref R16) (pin 2)))
+    (net (code 90) (name "Net-(Q1-Pad2)")
+      (node (ref R12) (pin 1))
+      (node (ref Q1) (pin 2)))
+    (net (code 91) (name /FILTER_OUT)
+      (node (ref C19) (pin 1))
+      (node (ref R14) (pin 1))
+      (node (ref U8) (pin 12))
+      (node (ref C23) (pin 2)))
+    (net (code 92) (name /RC1)
+      (node (ref C19) (pin 2))
+      (node (ref R13) (pin 2))
+      (node (ref R4) (pin 1)))
+    (net (code 93) (name /IRQ)
+      (node (ref U5) (pin 2))
+      (node (ref P1) (pin 6))
+      (node (ref P1) (pin 2))
+      (node (ref P1) (pin 4)))
+    (net (code 94) (name "Net-(U2-Pad7)")
+      (node (ref U2) (pin 7)))
+    (net (code 95) (name "Net-(U2-Pad9)")
+      (node (ref U2) (pin 9)))
+    (net (code 96) (name "Net-(U2-Pad10)")
+      (node (ref U2) (pin 10)))
+    (net (code 97) (name "Net-(U2-Pad11)")
+      (node (ref U2) (pin 11)))
+    (net (code 98) (name "Net-(U2-Pad12)")
+      (node (ref U2) (pin 12)))
+    (net (code 99) (name "Net-(U2-Pad13)")
+      (node (ref U2) (pin 13)))
+    (net (code 100) (name "Net-(U2-Pad14)")
+      (node (ref U2) (pin 14)))
+    (net (code 101) (name "Net-(U2-Pad15)")
+      (node (ref U3) (pin 5))
+      (node (ref U2) (pin 15)))
+    (net (code 102) (name "Net-(U9-Pad8)")
+      (node (ref U9) (pin 8)))
+    (net (code 103) (name "Net-(U5-Pad11)")
+      (node (ref U5) (pin 11))
+      (node (ref U5) (pin 4)))
+    (net (code 104) (name "Net-(U5-Pad6)")
+      (node (ref U5) (pin 9))
+      (node (ref U5) (pin 6)))
+    (net (code 105) (name /RC2)
+      (node (ref Q1) (pin 3))
+      (node (ref C25) (pin 2))
+      (node (ref R6) (pin 2))
+      (node (ref R13) (pin 1)))
+    (net (code 106) (name "Net-(C20-Pad2)")
+      (node (ref C20) (pin 2))
+      (node (ref R15) (pin 1)))
+    (net (code 107) (name "Net-(C23-Pad1)")
+      (node (ref C23) (pin 1))
+      (node (ref R10) (pin 1))
+      (node (ref R11) (pin 2)))
+    (net (code 108) (name "Net-(C21-Pad1)")
+      (node (ref C21) (pin 1))
+      (node (ref R8) (pin 1))
+      (node (ref R9) (pin 2)))
+    (net (code 109) (name "Net-(C22-Pad1)")
+      (node (ref C22) (pin 1))
+      (node (ref U8) (pin 2))
+      (node (ref R9) (pin 1)))
+    (net (code 110) (name "Net-(U3-Pad7)")
+      (node (ref U3) (pin 7)))
+    (net (code 111) (name "Net-(U3-Pad11)")
+      (node (ref U3) (pin 11)))
+    (net (code 112) (name "Net-(U3-Pad12)")
+      (node (ref U3) (pin 12)))
+    (net (code 113) (name /0x288)
+      (node (ref P2) (pin 3))
+      (node (ref U3) (pin 13)))
+    (net (code 114) (name /0x218)
+      (node (ref U3) (pin 14))
+      (node (ref P2) (pin 1)))
+    (net (code 115) (name "Net-(U3-Pad15)")
+      (node (ref U3) (pin 15)))
+    (net (code 116) (name "Net-(C16-Pad2)")
+      (node (ref D1) (pin 2))
+      (node (ref R12) (pin 2))
+      (node (ref C16) (pin 2)))
+    (net (code 117) (name /AMP_OUT)
+      (node (ref U9) (pin 5))
+      (node (ref C18) (pin 1))
+      (node (ref C20) (pin 1)))
+    (net (code 118) (name "Net-(C17-Pad1)")
+      (node (ref U9) (pin 7))
+      (node (ref C17) (pin 1)))
+    (net (code 119) (name "Net-(R14-Pad2)")
+      (node (ref R14) (pin 2))
+      (node (ref R3) (pin 2))
+      (node (ref U8) (pin 14)))
+    (net (code 120) (name "Net-(U4-Pad11)")
+      (node (ref U4) (pin 5))
+      (node (ref U4) (pin 11)))
+    (net (code 121) (name "Net-(U4-Pad2)")
+      (node (ref U4) (pin 2))
+      (node (ref U4) (pin 6)))
+    (net (code 122) (name "Net-(J1-Pad4)")
+      (node (ref J1) (pin 4)))
+    (net (code 123) (name "Net-(J1-Pad3)")
+      (node (ref J1) (pin 3)))
+    (net (code 124) (name /LEFT)
+      (node (ref J1) (pin 5))
+      (node (ref R16) (pin 1)))
+    (net (code 125) (name "Net-(C24-Pad1)")
+      (node (ref U8) (pin 13))
+      (node (ref R11) (pin 1))
+      (node (ref C24) (pin 1)))
+    (net (code 126) (name "Net-(U4-Pad12)")
+      (node (ref U4) (pin 8))
+      (node (ref U4) (pin 12)))))
